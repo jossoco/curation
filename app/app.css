@@ -1,0 +1,100 @@
+html, body, body > .ng-scope, .grid {
+    height: 100%;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.tags {
+    display: flex;
+    margin: 8px 0 18px;
+}
+
+.tag {
+    min-width: 120px;
+    margin: 3px;
+    padding: 0 6px;
+    text-transform: uppercase;
+    font-size: 19px;
+    border: 2px solid;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.tag.selected {
+    background-color: #f77296;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fill, 200px);
+    grid-gap: 10px;
+    grid-auto-flow: dense;
+}
+
+.item {
+    position: relative;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.item.article {
+    background-color: #ddd;
+}
+
+.item:not(.has-image) .item-details {
+    position: initial;
+    height: 100%;
+    background: rgba(256, 256, 256, .5);
+}
+
+.item.tall-2 {
+    grid-row: auto / span 2;
+}
+
+.item.tall-3 {
+    grid-row: auto / span 3;
+}
+
+.item.long-2 {
+    grid-column: auto / span 2;
+}
+
+.item.large {
+    grid-row: auto / span 2;
+    grid-column: auto / span 2;
+}
+
+.item-details {
+    position: absolute;
+    background: rgba(256, 256, 256, .85);
+    padding: 8px;
+    z-index: 1;
+}
+
+.item-title {
+    font-family: 'Slabo 27px', serif;
+}
+
+.image-container {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.item-overlay {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.item:hover .item-overlay {
+    opacity: 0.2;
+}

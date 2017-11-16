@@ -1,0 +1,17 @@
+<!--
+<div class="tags">
+    <div class="tag" ng-repeat="tag in tags">
+        {{tag}}
+    </div>
+</div>
+-->
+<div class="grid">
+    <div class="item" ng-repeat="item in items" ng-class="itemClass(item)">
+        <div class="item-details">
+            <div class="item-type">{{item.type}}</div>
+            <div class="item-title"><a href="{{item.url}}" target="_blank">{{item.title}}</a></div>
+        </div>
+        <div ng-if="item.imageUrl" class="image-container" style="background-image: url({{item.imageUrl}}"></div>
+        <div class="item-overlay"></div>
+    </div>
+</div>

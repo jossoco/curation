@@ -1,0 +1,32 @@
+[{
+    "title": "Jodi Kantor on the Longform Podcast",
+    "url": "https://longform.org/posts/longform-podcast-269-jodi-kantor",
+    "type": "Audio",
+    "tags": ["Podcast", "Current Events"]
+}, {
+    "title": "A Simple Boule",
+    "url": "http://www.hummingbirdhigh.com/2013/11/a-simple-boule.html",
+    "type": "Recipe",
+    "tags": ["Food"],
+    "imageUrl": "http://4.bp.blogspot.com/-lA5HyqI0sXY/UowpiLSW8YI/AAAAAAAAJTM/Pg59z5knqWU/s640/IMG_3599v1.jpg",
+    "display": "long-2"
+}, {
+    "title": "How to Use SVG as a Placeholder",
+    "url": "https://medium.freecodecamp.org/using-svg-as-placeholders-more-image-loading-techniques-bed1b810ab2c",
+    "type": "Article",
+    "tags": ["Technology"]
+}, {
+    "title": "The Experimental Layout Lab of Jen Simmons",
+    "url": "http://labs.jensimmons.com/",
+    "type": "Website",
+    "tags": ["Technology"],
+    "imageUrl": "http://labs.jensimmons.com/assets/screenshots/jazzposter.jpg",
+    "display": "tall-2"
+}, {
+    "title": "Estlin Haiss Photography (Instagram)",
+    "url": "https://www.instagram.com/estlinhaiss/",
+    "type": "Website",
+    "tags": ["Durham"],
+    "imageUrl": "https://scontent-iad3-1.cdninstagram.com/t51.2885-15/e35/23417273_126561878020258_1972170277047500800_n.jpg",
+    "display": "tall-2"
+}]
