@@ -8,7 +8,7 @@
     "url": "http://www.hummingbirdhigh.com/2013/11/a-simple-boule.html",
     "type": "Recipe",
     "tags": ["Food"],
-    "imageUrl": "http://4.bp.blogspot.com/-lA5HyqI0sXY/UowpiLSW8YI/AAAAAAAAJTM/Pg59z5knqWU/s640/IMG_3599v1.jpg",
+    "imageUrl": "img/boule.jpg",
     "display": "long-2"
 }, {
     "title": "How to Use SVG as a Placeholder",
@@ -20,13 +20,13 @@
     "url": "http://labs.jensimmons.com/",
     "type": "Website",
     "tags": ["Technology"],
-    "imageUrl": "http://labs.jensimmons.com/assets/screenshots/jazzposter.jpg",
+    "imageUrl": "img/simmons.jpg",
     "display": "tall-2"
 }, {
     "title": "Estlin Haiss Photography (Instagram)",
     "url": "https://www.instagram.com/estlinhaiss/",
     "type": "Website",
     "tags": ["Durham"],
-    "imageUrl": "https://scontent-iad3-1.cdninstagram.com/t51.2885-15/e35/23417273_126561878020258_1972170277047500800_n.jpg",
+    "imageUrl": "img/haiss.jpg",
     "display": "tall-2"
 }]
