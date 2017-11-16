@@ -3,12 +3,16 @@ html, body, body > .ng-scope, .grid {
 }
 
 body {
+    margin: 0;
     font-family: 'Barlow Condensed', sans-serif;
 }
 
 .tags {
     display: flex;
-    margin: 8px 0 18px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 4px;
+    background-color: #000;
 }
 
 .tag {
@@ -20,6 +24,11 @@ body {
     border: 2px solid;
     border-radius: 4px;
     text-align: center;
+    cursor: pointer;
+    user-select: none;
+    background-color: #fff;
+
+    transition: background-color 200ms linear;
 }
 
 .tag.selected {
@@ -32,6 +41,7 @@ body {
     grid-template-rows: repeat(auto-fill, 200px);
     grid-gap: 10px;
     grid-auto-flow: dense;
+    margin: 8px;
 }
 
 .item {
